@@ -1,0 +1,20 @@
+{
+  "name": "apex-alliance",
+  "version": "1.0.0",
+  "description": "This is the app for appex aliance",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./dist/css/main.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./dist/css/main.css --watch"
+  },
+  "keywords": [
+    "Printing",
+    "Graphics",
+    "Design"
+  ],
+  "author": "Apex Alliance",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
